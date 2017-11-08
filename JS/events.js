@@ -9,17 +9,17 @@ function incrementValue()
 		} else if (value >= 10 && value < 25) {
 			document.getElementById('number').value = value + ' puns';
 			document.getElementById('punEncourage').innerHTML = 'Keep those puns coming!';
+				if (value === 10) {
+					audio.play();
+				}
 		} else if (value >= 25 && value < 50) {
 			document.getElementById('number').value = value + ' puns';
 			document.getElementById('punEncourage').innerHTML = 'Holy shit that\'s alot of puns!';
+			audio1.play();
 		} else if (value >= 50) {
 			document.getElementById('number').value = value + ' puns';
 		}
 
-}
-
-function audioTrigger() {
-	document.createElement("AUDIO");
 }
 
 document.body.onload = addElement;
@@ -35,3 +35,9 @@ function addElement () {
 	var currentDiv = document.getElementById("div1");
 	document.body.insertBefore(newDiv, currentDiv);
 }
+
+var audio = document.getElementById("mySoundClip");
+var audio1 = document.getElementById("mySoundClip1");
+
+
+
