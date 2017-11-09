@@ -19,31 +19,25 @@ function incrementValue() {
 		document.getElementById('number').value = value + ' puns';
 		document.getElementById('punEncourage').innerHTML = 'Holy shit that\'s alot of puns!';
 		if(value === 25) {
-			audio1.play();
-		}
-	} else if(value >= 50) {
-		document.getElementById('number').value = value + ' puns';
-		document.getElementById('punEncourage').innerHTML = 'THIS IS INHUMAN! ARE YOU A PUN MACHINE?';
-		if(value === 50) {
-			audio2.play();
+			audio3.play();
 		}
 	}
 }
+
 	document.body.onload = addElement;
 
 	function addElement() {
-		// create a new div element
-		// and give it some content
 		var newDiv = document.createElement("div");
-		var newContent = document.createTextNode("Hi there and greetings!");
-		newDiv.appendChild(newContent); //add the text node to the newly created div.
+		var newContent = document.createTextNode("I'm created on page load");
+		newDiv.appendChild(newContent);
 
-		// add the newly created element and its content into the DOM
 		var currentDiv = document.getElementById("div1");
 		document.body.insertBefore(newDiv, currentDiv);
 	}
 
 
-
+function changeMe() {
+	document.getElementById("changeMe").innerHTML = "What happened?";
+}
 
 

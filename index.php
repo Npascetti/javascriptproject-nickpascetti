@@ -23,11 +23,9 @@
 			<input id="counterButton" type="button" onclick="incrementValue()" value="Pun Counter" />
 		</form>
 		<h1 id="punEncourage"></h1>
-		<div id="div1">The text above has been created dynamically.</div>
+		<div id="div1">The text above is created on page load</div>
 
-		<p id="clickp">try clicking on me</p>
-
-		<p onclick="replaceTaco()">Every day is taco ipsum tuesday. It’s a wonderful morning for breakfast tacos. It’s a wonderful morning for breakfast tacos. How do you feel about hard shelled tacos? Ooh, with diced onions and a pinch of cilantro. I think I’ve overdosed on tacos. Yeah, apparently the taco shack was robbed. They left the money but took the tacos. I’ve been following that taco truck around all day. 50 cent tacos! I’ll take 30. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. Tacos dorados called flautas, or taquitos, for which the tortillas are filled with pre-cooked shredded chicken, beef or barbacoa, rolled into an elongated cylinder and deep-fried until crisp.</p>
+		<p id="changeMe" onclick="changeMe()">Every day is taco ipsum tuesday. It’s a wonderful morning for breakfast tacos. It’s a wonderful morning for breakfast tacos. How do you feel about hard shelled tacos? Ooh, with diced onions and a pinch of cilantro. I think I’ve overdosed on tacos. Yeah, apparently the taco shack was robbed. They left the money but took the tacos. I’ve been following that taco truck around all day. 50 cent tacos! I’ll take 30. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla. Tacos dorados called flautas, or taquitos, for which the tortillas are filled with pre-cooked shredded chicken, beef or barbacoa, rolled into an elongated cylinder and deep-fried until crisp.</p>
 
 		<p>CARNITAS!! Give me all the tacos, immediately. Tacos, again? This will be 5 times this week and it’s only Tuesday. Give me all your tacos. Ooh, with diced onions and a pinch of cilantro. How do you feel about hard shelled tacos? Ooh, with diced onions and a pinch of cilantro. It’s a wonderful morning for breakfast tacos. Tacos al pastor made with adobada meat. Tacos, tacos, tacos. Shrimp tacos are tasty tacos! Black or pinto beans? Tacos Al pastor/De Adobada are made of thin pork steaks seasoned with adobo seasoning, then skewered and overlapped on one another on a vertical rotisserie cooked and flame-broiled as it spins.</p>
 
