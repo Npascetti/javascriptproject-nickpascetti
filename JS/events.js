@@ -40,4 +40,16 @@ function changeMe() {
 	document.getElementById("changeMe").innerHTML = "What happened?";
 }
 
+function colorChange() {
+	document.getElementById("changeMe1").style.color = "#ff0000";
+}
+
+function colorRevert() {
+		document.getElementById("changeMe1").style.color = "black";
+}
+
+function fontChange() {
+		document.getElementById("changeMe1").style.fontFamily = "Comic Sans MS";
+		document.getElementById("changeMe1").innerHTML = "OH MY GOD, IT'S HIDEOUS!";
+}
 
