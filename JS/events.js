@@ -50,6 +50,18 @@ function colorRevert() {
 
 function fontChange() {
 		document.getElementById("changeMe1").style.fontFamily = "Comic Sans MS";
-		document.getElementById("changeMe1").innerHTML = "OH MY GOD, IT'S HIDEOUS!";
+		document.getElementById("changeMe1").innerHTML = "OH MY GOD, IT'S HIDEOUS! DOUBLE CLICK AND SAVE ME!";
 }
 
+function changeBack () {
+		document.getElementById("changeMe1").style.fontFamily = "Arial";
+	document.getElementById("changeMe1").innerHTML = "That's better. Thanks!";
+}
+
+function highlightYellow() {
+		document.getElementById("changeMe2").style.backgroundColor = "yellow";
+}
+
+function backgroundColorRevert() {
+	document.getElementById("changeMe2").style.backgroundColor = "white";
+}
