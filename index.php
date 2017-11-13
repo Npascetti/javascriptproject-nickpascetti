@@ -41,7 +41,7 @@
 
 		<p id="changeMe2" onclick="highlightYellow()" ondblclick="backgroundColorRevert()">It’s long been rumored that the chupacabra is really just a crazed man who’s local taco shop went out of business. If you were a taco, would you eat yourself? CARNE ASADA!! Give me all the tacos, immediately. BARBACOA!! How do you feel about hard shelled tacos? Burritos are very tasty. Give me all your tacos. Burritos are very tasty. Fish tacos: lettuce or cabbage, pico de gallo, avocado and a sour cream or citrus/mayonnaise sauce, all placed on top of a corn or flour tortilla.</p>
 
-		<h2>This text is generated from the bacon ipsum api.</h2>
+		<h2>The text below is generated via the bacon ipsum api.</h2>
 
 		<p id="baconapi"></p>
 

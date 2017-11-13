@@ -1,6 +1,6 @@
 params = "url=baconipsum.com/api/?callback=?"
 request = new ajaxRequest()
-request.open("POST", "https://baconipsum.com/api/?type=all-meat&paras=1&start-with-lorem=1&format=text", true)
+request.open("POST", "https://baconipsum.com/api/?type=all-meat&paras=1&start-with-lorem=1", true)
 request.setRequestHeader("Content-type",
 	"application/x-www-form-urlencoded")
 request.setRequestHeader("Content-length", params.length)
@@ -14,7 +14,11 @@ request.onreadystatechange = function()
 			if (this.responseText != null)
 			{
 
-				document.getElementById('baconapi').innerHTML = this.responseText;
+					var bacon = JSON.parse(this.responseText);
+					document.getElementById('baconapi').innerHTML = bacon;
+
+
+
 
 			}
 			else alert("Ajax error: No data received")
